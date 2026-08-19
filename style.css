@@ -8,12 +8,23 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    padding: 1rem;
 }
 
 .cabecalho-inicio {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+.cabecalho-centro {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cabecalho-final {
+    display: flex;
+    gap: 0.8rem;
 }
 
 .logotipo {
@@ -30,9 +41,26 @@
     color: rgb(151, 151, 151);
 }
 
+.logotipo-video {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.logotipo-texto {
+    font-weight: bolder;
+}
+
+.logotipo-texto:hover {
+    color: gray;
+}
+
+.logotipo-video:hover {
+    background-color: gray;
+}
+
 .search {
     display: flex;
-    
 }
 
 .search-input {
@@ -41,6 +69,8 @@
     outline: none;
     height: 2rem;
     width: 325px;
+    font-size: 1rem;
+    padding: 0 16px 0 0.8rem;
 }
 
 .search-button {
@@ -57,7 +87,3 @@
     border-radius: 50%;
 }
 
-.cabecalho-centro {
-    display: flex;
-    gap: 0.5rem;
-}
