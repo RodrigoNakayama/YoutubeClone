@@ -108,6 +108,8 @@ body {
 .princ-sidebar {
     background-color: orange;
     width: 20vw;
+
+    overflow-y: auto;
 }
 
 .princ-video {
@@ -118,4 +120,9 @@ body {
 .princ-recomendados {
     background-color: green;
     width: 25vw;
+}
+
+.sidebar-inicio, .sidebar-centro, .sidebar-final {
+    display: flex;
+    flex-direction: column;
 }
