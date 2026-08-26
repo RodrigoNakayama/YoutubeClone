@@ -12,7 +12,9 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem;
+    border-bottom: 1px solid aliceblue;
+    height: 10vh;
+    background-color: azure;
 }
 
 .cabecalho-inicio {
@@ -24,11 +26,13 @@ body {
 .cabecalho-centro {
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 
 .cabecalho-final {
     display: flex;
     gap: 0.8rem;
+    align-items: center;
 }
 
 .logotipo {
@@ -91,3 +95,27 @@ body {
     border-radius: 50%;
 }
 
+/* ^^^^^ header ^^^^^ */
+/* ===================================================================== */
+/* Main css thing stuff bit */
+
+.principal {
+    display: flex;
+    background-color: antiquewhite;
+    height: 90vh;
+}
+
+.princ-sidebar {
+    background-color: orange;
+    width: 20vw;
+}
+
+.princ-video {
+    background-color: white;   
+    width: 55vw;
+}
+
+.princ-recomendados {
+    background-color: green;
+    width: 25vw;
+}
