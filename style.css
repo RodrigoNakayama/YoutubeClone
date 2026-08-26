@@ -6,13 +6,13 @@
 }
 
 body {
-    font-size: 32px;
+    font-size: 16px;
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .cabecalho-inicio {
@@ -41,14 +41,14 @@ body {
 }
 
 .logotipo-pais {
-    font-size: 8px;
+    font-size: 0.5rem;
     color: rgb(151, 151, 151);
 }
 
 .logotipo-video {
     border-radius: 50%;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
 }
 
 .logotipo-texto {
@@ -72,15 +72,15 @@ body {
     border-radius: 1rem 0 0 1rem;
     outline: none;
     height: 2rem;
-    width: 325px;
+    width: 20.313rem;
     font-size: 1rem;
-    padding: 0 16px 0 0.8rem;
+    padding: 0 1rem 0 0.8rem;
 }
 
 .search-button {
     border: 1px solid rgb(199, 199, 199);
     border-radius: 0 1rem 1rem 0;
-    width: 50px;
+    width: 3.125rem;
     height: 2rem;
 }
 
