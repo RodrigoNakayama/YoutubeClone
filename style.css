@@ -106,9 +106,8 @@ body {
 }
 
 .princ-sidebar {
-    background-color: orange;
     width: 20vw;
-
+    padding: 0.5rem;
     overflow-y: auto;
 }
 
@@ -125,4 +124,27 @@ body {
 .sidebar-inicio, .sidebar-centro, .sidebar-final {
     display: flex;
     flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+.sidebar-button {
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.sidebar-button:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+.sidebar-button > i {
+    margin-right: 1rem;
+}
+
+.sidebar-centro, .sidebar-final {
+    border-top: 1px solid rgb(202, 202, 202);
+}
+
+.sidebar-titulo {
+    padding: 1rem;
+    margin: 0.5rem;
 }
